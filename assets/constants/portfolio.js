@@ -38,9 +38,9 @@ const portfolioItems = [
   {
     id: "5",
     category: "hrm",
-    title: "Web Project 1",
+    title: "HRM Research",
     description: "A slick website design.",
-    image: "assets/img/portfolio/books-1.jpg",
+    image: "assets/img/portfolio/DSI.png",
   },
   {
     id: "6",
