@@ -33,32 +33,70 @@ const portfolioItems = [
   },
   {
     id: "5",
-    category: "web",
+    category: "web ",
     title: "Villa Frangipani – Website Maintenance (2024)",
     description:
       "Performed key updates on the Villa Frangipani website, including updating the “Book Now” link and resetting the admin password for improved security and functionality.",
-    image: "assets/img/portfolio/Villa.png",
+    image: "assets/img/portfolio/villa.png",
   },
   {
     id: "6",
     category: "hrm",
-    title: "HRM Research",
-    description: "A slick website design.",
+    title: "HRM Final Project – DSI (Pvt) Ltd. (2022)",
+    description:
+      "Completed a practical project on Training and Development at DSI (Pvt) Ltd., including a visit to the Bataduwa branch and discussions with the HR Manager. Gained valuable insights into the company’s employee development strategies and HR practices.",
     image: "assets/img/portfolio/DSI.png",
   },
   {
     id: "7",
     category: "iot",
-    title: "Web Project 1",
-    description: "A slick website design.",
-    image: "assets/img/portfolio/books-1.jpg",
+    title: "Smart Home IoT Security System (2024)",
+    description:
+      "Developed an advanced IoT-based home security prototype featuring light and water motor control, fire detection with alarms, wall and door security sensors, and gate access with password protection. Includes real-time monitoring and remote access, offering a secure and smart solution for modern home management.",
+    image: "assets/img/portfolio/smarthome.png",
   },
 
   {
     id: "8",
     category: "desktop",
+    title: "Student Registration System – Desktop App (2022)",
+    description:
+      "Developed a C#-based Student Registration System as the final project for the DiTEC course at ESOFT Metro Campus. The project enhanced my skills in C# programming and SQL database management, focusing on effective handling of student information.",
+    image: "assets/img/portfolio/books-1.jpg",
+  },
+  {
+    id: "9",
+    category: "desktop",
     title: "Web Project 1",
     description: "A slick website design.",
     image: "assets/img/portfolio/books-1.jpg",
   },
+  {
+    id: "10",
+    category: "desktop",
+    title: "Customer Entry Management System (2023)",
+    description:
+      "Motivated by the Covid-19 situation, I developed a secure and user-friendly system that allows customers to enter and save their details upon entry. Designed for shop owners to retrieve customer data by date, the system supports accurate record-keeping, access control, and data privacy compliance, improving safety and decision-making during health-sensitive periods.",
+    image: "assets/img/portfolio/books-1.jpg",
+  },
+  {
+    id: "11",
+    category: "desktop",
+    title: "Sweet Shop Desktop Billing System (2023)",
+    description:
+      "Developed a user-friendly desktop application for managing sales transactions in a sweet shop. The system enables automatic total calculations, bill generation, and offers options to print or email bills, streamlining the checkout process and improving customer service.",
+    image: "assets/img/portfolio/books-1.jpg",
+  },
+  {
+    id: "12",
+    category: "desktop",
+    title: "BMI Calculator – Desktop Application (2023)",
+    description:
+      "Created a desktop application to calculate Body Mass Index (BMI) using user input for height and weight. The tool provides instant results and classifies the BMI into categories such as underweight, normal, overweight, or obese, supporting quick health assessments.",
+    image: "assets/img/portfolio/books-1.jpg",
+  },
+  
+ 
 ];
+
+
