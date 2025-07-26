@@ -4,7 +4,7 @@ const portfolioItems = [
     category: "web",
     title: "LEO club Website",
     description:
-      "Explore the vibrant Leo Club of District 306 C2 at the University of Sri Jayawardenepura.",
+      " Experience the essence of service and leadership with the Leo Club of District 306 C2 at the University of Sri Jayawardenepura, showcasing our impactful projects, prestigious awards, inspiring anecdotes, dedicated board members, and contact details, encapsulating our commitment to community and personal development. (2024)",
     image: "assets/img/portfolio/Leoweb.png",
   },
   {
