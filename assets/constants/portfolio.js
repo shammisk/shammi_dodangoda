@@ -64,7 +64,7 @@ const portfolioItems = [
     title: "Student Registration System – Desktop App (2022)",
     description:
       "Developed a C#-based Student Registration System as the final project for the DiTEC course at ESOFT Metro Campus. The project enhanced my skills in C# programming and SQL database management, focusing on effective handling of student information.",
-    image: "assets/img/portfolio/books-1.jpg",
+    image: "assets/img/portfolio/stu.png",
   },
   {
     id: "9",
@@ -79,7 +79,7 @@ const portfolioItems = [
     title: "Customer Entry Management System (2023)",
     description:
       "Motivated by the Covid-19 situation, I developed a secure and user-friendly system that allows customers to enter and save their details upon entry. Designed for shop owners to retrieve customer data by date, the system supports accurate record-keeping, access control, and data privacy compliance, improving safety and decision-making during health-sensitive periods.",
-    image: "assets/img/portfolio/books-1.jpg",
+    image: "assets/img/portfolio/custom.png",
   },
   {
     id: "11",
@@ -87,7 +87,7 @@ const portfolioItems = [
     title: "Sweet Shop Desktop Billing System (2023)",
     description:
       "Developed a user-friendly desktop application for managing sales transactions in a sweet shop. The system enables automatic total calculations, bill generation, and offers options to print or email bills, streamlining the checkout process and improving customer service.",
-    image: "assets/img/portfolio/books-1.jpg",
+    image: "assets/img/portfolio/bil.png",
   },
   {
     id: "12",
