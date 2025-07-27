@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-    "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway", sans-serif;
   --nav-font: "Poppins", sans-serif;
 }
@@ -156,7 +156,8 @@ h6 {
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
-  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-right: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .header .profile-img img {
@@ -371,7 +372,8 @@ h6 {
   font-size: 14px;
   padding: 40px 0;
   position: relative;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .copyright p {
@@ -505,7 +507,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 60px 30px;
   overflow: clip;
 }
 
@@ -739,7 +741,7 @@ section,
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
@@ -747,8 +749,8 @@ section,
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
-  padding: 5px 15px;
+  font-size: 14px;
+  padding: 5px 6px 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
@@ -760,6 +762,7 @@ section,
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-size: 14px;
 }
 
 .resume .resume-item:last-child {
@@ -1154,14 +1157,20 @@ section,
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
@@ -1175,7 +1184,8 @@ section,
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 .portfolio-details .portfolio-info ul {
@@ -1216,7 +1226,8 @@ section,
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
-  border-left: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
+  border-left: 3px solid
+    color-mix(in srgb, var(--default-color), transparent 70%);
   margin: 20px 0;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   transition: 0.3s;

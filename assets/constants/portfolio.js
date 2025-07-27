@@ -6,6 +6,8 @@ const portfolioItems = [
     description:
       " Experience the essence of service and leadership with the Leo Club of District 306 C2 at the University of Sri Jayawardenepura, showcasing our impactful projects, prestigious awards, inspiring anecdotes, dedicated board members, and contact details, encapsulating our commitment to community and personal development. (2024)",
     image: "assets/img/portfolio/Leoweb.png",
+    live: "https://your-live-link.com", 
+    github: "https://github.com/your-repo", 
   },
   {
     id: "2",
@@ -93,10 +95,6 @@ const portfolioItems = [
     title: "BMI Calculator – Desktop Application (2023)",
     description:
       "Created a desktop application to calculate Body Mass Index (BMI) using user input for height and weight. The tool provides instant results and classifies the BMI into categories such as underweight, normal, overweight, or obese, supporting quick health assessments.",
-    image: "assets/img/portfolio/books-1.jpg",
+    image: "assets/img/portfolio/bmi.png",
   },
-  
- 
 ];
-
-
