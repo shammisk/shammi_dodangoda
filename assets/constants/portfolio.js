@@ -77,10 +77,13 @@ const portfolioItems = [
   },
   {
     id: "9",
-    category: "desktop",
-    title: "Web Project 1",
-    description: "A slick website design.",
-    image: "assets/img/portfolio/books-1.jpg",
+    category: "web",
+    title: "QRcode Qenerator",
+    description:
+      "The QR Code Generator is a lightweight web application crafted with HTML, CSS, and JavaScript. It enables users to swiftly generate QR codes for URLs, text, or contact information. With customizable options for size, color, and error correction, users can tailor QR codes to their specific needs. The application's intuitive interface and responsive design ensure seamless usability across devices. This project demonstrates my proficiency in front-end development and showcases my ability to create practical tools for enhancing user experience.(2024)",
+    image: "assets/img/portfolio/qr.png",
+    live: "https://shammisk.github.io/qrcode_gen/",
+    github: "https://github.com/shammisk/qrcode_gen",
   },
   {
     id: "10",
