@@ -859,8 +859,7 @@
 
             <div class="col-lg-7">
               <form
-                action="forms/contact.php"
-                method="post"
+                id="contact-form" 
                 class="php-email-form"
                 data-aos="fade-up"
                 data-aos-delay="200">
@@ -892,7 +891,7 @@
 
                   <div class="col-md-12 text-center">
                     <div class="loading">Loading</div>
-                    <div class="error-message"></div>
+                    <div class="error-message">Your message could not be sent. Please try again later.</div>
                     <div class="sent-message">Your message has been sent. Thank you!</div>
 
                     <button type="submit">Send Message</button>
@@ -1026,5 +1025,8 @@
         }
       });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/vendor/email-form/send.js"></script>
   </body>
 </html>
